@@ -28,8 +28,8 @@
     </dependencies>
     <!-- maven打包插件 -->
     <build>
-        <!-- jar包名称 -->
-        <finalName>${project.name}</finalName>
+<!--        &lt;!&ndash; jar包名称 &ndash;&gt;-->
+<!--        <finalName>${project.name}</finalName>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
