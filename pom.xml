@@ -23,6 +23,18 @@
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.1.6.RELEASE</version>
         </dependency>
-    </dependencies>
 
+
+    </dependencies>
+    <!-- maven打包插件 -->
+    <build>
+        <!-- jar包名称 -->
+        <finalName>${project.name}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
